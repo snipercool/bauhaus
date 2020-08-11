@@ -24,3 +24,6 @@ Zoals in mijn moodbord weergegeven werkt Itten met veel kleur. Niet enkel de kle
 
 ### STORYBOARD
 ![Storyboard](https://github.com/snipercool/bauhaus/blob/master/images/storyboard.png)
+
+### Link
+[Website](http://bauhaus.nicolasvh.be)
