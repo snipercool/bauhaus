@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gkt5uks.css">
+</head>
+<style>
+    body{
+   background-color: #EDEDED;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    overflow: hidden;
+}
+.container{
+    height: 98vh;
+    display: grid;
+    place-items: center;
+}
+.head{
+    font-size: 36px;
+    font-family: 'Staatliches', cursive;
+}
+.under-head{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Staatliches', cursive;
+}
+.body{
+    font-size: 12px;
+}
+svg{
+    max-height: 80vh; 
+}
+#Laag_4 .cls-1{
+    animation: scale-rect 5s alternate ease-in-out infinite;
+}
+#Laag_4 .cls-3{
+    animation: scale-rect 5s 0.5s alternate ease-in-out infinite;
+}
+
+#Laag_5 .cls-5{
+    animation: move-rect-1 5s alternate ease-in-out infinite;
+}
+#Laag_5 .cls-6{
+    animation: move-rect-2 5s alternate ease-in-out infinite;
+}
+#Laag_20 .cls-3{
+    transform: translate(1500px, 0);
+    animation: move-rect-3 5s 4s alternate ease-in-out infinite;
+}
+
+#Laag_20 .cls-8{
+    transform: translate(1500px, 0);
+    animation: move-rect-3 5s ease-in-out infinite;
+}
+
+#Laag_20 .cls-12{
+    transform: translate(-1500px, 0);
+    animation: move-rect-4 5s 6s alternate ease-in-out infinite;
+}
+
+#Laag_20 .cls-7{
+    transform: translate(-1500px, 0);
+    animation: move-rect-4 5s 2s ease-in-out infinite;
+}
+
+#Laag_20 .cls-4{
+    transform: translate(0, -1500px);
+    animation: move-rect-5 5s 6s ease-in-out infinite;
+}
+#Laag_23 .head{
+    animation: move-text 7s 2s ease-in-out infinite;
+}
+#Laag_23 .under-head{
+    animation: move-text-2 7s 2s ease-in-out infinite;
+}
+
+#Laag_21 .head{
+    animation: show-text 7s 2s ease-in-out infinite;
+    opacity: 0;
+}
+
+.cls-1 {
+    fill: #f2e50a;
+}
+
+.cls-2 {
+    fill: #f28e1c;
+}
+
+.cls-3 {
+    fill: #fdc60a;
+}
+
+.cls-4 {
+    fill: #0a96bb;
+}
+
+.cls-5 {
+    fill: #2972b0;
+}
+
+.cls-6 {
+    fill: #444e9a;
+}
+
+.cls-7 {
+    fill: #c4097d;
+}
+
+.cls-8 {
+    fill: #e32522;
+}
+
+.cls-9 {
+    fill: #e96321;
+}
+
+.cls-10 {
+    fill: #8dbc26;
+}
+
+.cls-11 {
+    fill: #008f5a;
+}
+
+.cls-12 {
+    fill: #6d398c;
+}
+
+.cls-13 {
+    fill: #f28d1f;
+}
+
+.cls-14 {
+    fill: #e32423;
+}
+
+.cls-15 {
+    fill: #EDEDED;
+}
+
+
+@keyframes scale-rect{
+    0%{ 
+        transform: scale(1);
+        transform-origin: 862px 831px;
+    }
+    65% {
+        transform: scale(0);
+        transform-origin: 862px 831px;
+      }
+      90% {
+        transform: scale(1);
+        transform-origin: 862px 831px;
+      }
+}
+
+@keyframes move-rect-1{
+    0%{ 
+        transform: translate(0px, 0px);
+    }
+    40% {
+        transform: translate(-91.15px, 91.15px);
+      }
+      60% {
+        transform: translate(-91.15px, 91.15px);
+      }
+      90% {
+        transform: translate(0px, 0px);
+      }
+}
+@keyframes move-rect-2{
+    0%{ 
+        transform: translate(0px, 0px);
+    }
+    40% {
+        transform: translate(-147.49px, 147.49px);
+      }
+      60% {
+        transform: translate(-147.49px, 147.49px);
+      }
+      90% {
+        transform: translate(0px, 0px);
+      }
+}
+@keyframes move-rect-3{
+    40% {
+        transform: translate(0, 0);
+      }
+      60% {
+        transform: translate(0, 0);
+      }
+      90% {
+        transform: translate(1500px, 0);
+      }
+      100% {
+        transform: translate(1500px, 0);
+      }
+}
+
+@keyframes move-rect-4{
+    40% {
+        transform: translate(0, 0);
+      }
+      60% {
+        transform: translate(0, 0);
+      }
+      90% {
+        transform: translate(-1500px, 0);
+      }
+      100% {
+        transform: translate(-1500px, 0);
+      }
+}
+
+@keyframes move-rect-5{
+    40% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(0, 0);
+      }
+      90% {
+        transform: translate(0, -1500px);
+      }
+      100% {
+        transform: translate(0, -1500px);
+      }
+}
+
+@keyframes move-text{
+    40% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(-390px, 0);
+      }
+      90% {
+        transform: translate(-390px, 0);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+}
+
+@keyframes move-text-2{
+    40% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(-390px, 0);
+      }
+      90% {
+        transform: translate(-390px, 0);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+}
+
+@keyframes show-text{
+    20% {
+        opacity: 0;
+      }
+      40% {
+        opacity: 1;
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+}
+</style>
+<body>
+    <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1358.45 1000.84">
+                <title>Johannes Itten</title>
+                <g id="Laag_2" data-name="Laag 2">
+                    <rect filter="url(#noise)" class="cls-1" x="356.64" width="356.64" height="356.64" />
+                    
+                    <text x='366.64' y='40' class="head" >Johannes Itten
+                        <tspan x="366.64" y="60" class="under-head">(Südern-Linden, 11 November 1888 – 25 March 1967)</tspan>
+                        <tspan x="366.64" y="90" class="body">Johannes Itten was a Swiss expressionist painter, designer, </tspan>
+                        <tspan x="366.64" y="105" class="body">teacher, writer and theorist associated with the Bauhaus </tspan>
+                        <tspan x="366.64" y="120" class="body">(Staatliches Bauhaus) school. Together with German-American </tspan>
+                        <tspan x="366.64" y="135" class="body">painter Lyonel Feininger and German sculptor Gerhard Marcks, </tspan>
+                        <tspan x="366.64" y="150" class="body">under the direction of German architect Walter Gropius,</tspan>
+                        <tspan x="366.64" y="165" class="body">Itten was part of the core of the Weimar Bauhaus.</tspan>
+                        <tspan x="366.64" y="190" class="under-head">His most famous work was:</tspan>
+                        <tspan x="366.64" y="205" class="body">The FarbKreis</tspan>
+                    </text>
+                </g>
+                <filter id="noise">
+                    <feTurbulence type="fractalNoise" baseFrequency="30" result="noisy" />
+                    <feColorMatrix type="saturate" values="0"/>
+                <feBlend in="SourceGraphic" in2="noisy" mode="multiply" />
+              </filter>
+                <g id="Laag_4" data-name="Laag 4">
+                    <rect class="cls-2" x="733.1" y="701.58" width="259.34" height="259.34" />
+                    <rect class="cls-3" x="782.62" y="751.11" width="160.28" height="160.28" />
+                    <rect class="cls-1" x="813.23" y="781.72" width="99.06" height="99.06" />
+                </g>
+                <g id="Laag_5" data-name="Laag 5">
+                    <rect class="cls-4" x="713.28" y="118" width="238.64" height="238.64" />
+                    <rect class="cls-5" x="804.43" y="118" width="147.49" height="147.49" />
+                    <rect class="cls-6" x="860.76" y="118" width="91.15" height="91.15" />
+                </g>
+                <g id="Laag_23" data-name="Laag 23">
+                    <rect class="cls-12" x="595.36" y="442.87" width="356.56" height="86.23" />
+                    <text x='1000.36' y='480.1' class="head" >Bauhaus</text>
+                    <text x='1000.36' y='500.1' class="under-head" >100 years</text>
+                    <rect class="cls-15" x= '990' y='450' width="200" height="80" />
+                    <path class="cls-1" d="M595.28,324.87V411.1H509.05A86.22,86.22,0,0,1,595.28,324.87Z"
+                        transform="translate(356.64 118)" />
+                </g>
+                <g id="Laag_22" data-name="Laag 22">
+                    <rect class="cls-5" x="595.36" y="529.1" width="356.56" height="86.24" />
+                    <path class="cls-2" d="M325,497.34H238.72V411.1A86.23,86.23,0,0,1,325,497.34Z"
+                        transform="translate(356.64 118)" />
+                        
+                </g>
+                <g id="Laag_3" data-name="Laag 3">
+                    <rect class="cls-7" x="402.47" y="356.64" width="192.89" height="192.89" />
+                    <rect class="cls-8" x="439.31" y="393.48" width="119.22" height="119.22" />
+                    <rect class="cls-9" x="462.08" y="416.25" width="73.68" height="73.68" />
+                </g>
+                <g id="Laag_6" data-name="Laag 6">
+                    <rect class="cls-10" x="402.47" y="549.53" width="192.89" height="69.21" />
+                </g>
+                <g id="Laag_7" data-name="Laag 7">
+                    <rect class="cls-6" x="402.47" y="618.74" width="192.89" height="82.84" />
+                </g>
+                <g id="Laag_8" data-name="Laag 8">
+                    <rect class="cls-11" x="402.47" y="862.54" width="330.62" height="98.38" />
+                </g>
+                <g id="Laag_19" data-name="Laag 19">
+                    <rect class="cls-9" x="595.36" y="615.34" width="356.55" height="86.24" />
+                </g>
+                <g id="Laag_20" data-name="Laag 20">
+                    <rect class="cls-4" x="308.79" y="265.49" width="47.85" height="584.21" />
+                    <rect class="cls-8" x="992.43" y="118" width="366.01" height="72.93" />
+                    <rect class="cls-12" y="849.71" width="356.64" height="72.93" />
+                    <rect class="cls-7" x="213.98" y="960.92" width="519.12" height="39.92" />
+                    <rect class="cls-10" x="951.92" y="118" width="40.52" height="583.57" />
+                    <rect class="cls-3" x="713.28" y="45.07" width="577.05" height="72.93" />
+                    <rect class="cls-13" x="356.64" y="356.64" width="45.83" height="604.28" />
+                </g>
+                <g id="Laag_21" data-name="Laag 21">
+                    <polygon class="cls-14"
+                        points="951.92 356.64 951.92 442.88 595.36 442.88 595.36 442.87 951.92 356.64" />
+                    <polygon class="cls-11" points="951.92 356.64 595.36 442.87 595.36 356.64 951.92 356.64" />
+                    <text x='610.36' y='400.1' class="head" >1919</text>
+                    <text x='850.36' y='430.1' class="head" >2019</text>
+                </g>
+                <g id="Laag_24" data-name="Laag 24">
+                    <rect class="cls-5" x="402.47" y="701.58" width="165.31" height="160.96" />
+                    <rect class="cls-12" x="567.78" y="701.58" width="165.31" height="160.96" />
+                    <g id="Laag_25" data-name="Laag 25">
+                        <path class="cls-8"
+                            d="M291.62,664.05a80.48,80.48,0,0,1-80.48,80.48v-161A80.48,80.48,0,0,1,291.62,664.05Z"
+                            transform="translate(356.64 118)" />
+                    </g>
+                    <g id="Laag_26" data-name="Laag 26">
+                        <path class="cls-1" d="M211.14,583.57v161a80.48,80.48,0,0,1,0-161Z"
+                            transform="translate(356.64 118)" />
+                    </g>
+                </g>
+            </svg>
+    </div>
+</body>
+
+</html>
