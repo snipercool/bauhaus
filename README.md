@@ -3,6 +3,9 @@
 
 Maak een affiche voor de 100ste verjaardag voor de geboorte van BAUHAUS.Zet Bauhaus in de kijker en belicht tegelijk de vooraanstaande docent Johannes Itten die er les gaf. De affiche moet de sfeer en het karakter van het werk van de Johannes Itten uitstralen.
 
+### Link
+[Website](http://bauhaus.nicolasvh.be)
+
 ## Moodboard
 [Moodboard](https://nl.pinterest.com/nicolasvanhuynegem/johannes-itten/)
 
